@@ -1,69 +1,57 @@
-assume cs:code, ds: data
+ASSUME CS:code, DS: data
 
 data segment
-    msg1 db 0ah, 0dh, "Enter the string: $"
-    msg2 db 0ah, 0dh, "The string is: $"
-    msg3 db 0ah, 0dh, "The length of the string is: $"
-    instr1 db 20 dup("$")
+    msg1 db 0ah, "Enter the string: $"
+    msg2 db 0ah, "The length of the string is: $"
+    instr1 db 40 dup("$")
 data ends
 
 code segment
 start:
-    mov ax, data
-    mov ds, ax
-
-    lea si, instr1
+    MOV AX, data
+    MOV DS, AX
 
     ; display msg to get string
-    mov ah, 09h
-    lea dx, msg1
-    int 21h
+    MOV AH, 09h
+    LEA DX, msg1
+    INT 21h
 
-    mov ah, 0Ah
-    mov dx, si
-    int 21h
+    MOV CX, 0; set counter to 0
+    char:
+        MOV AH, 01H; read a character
+        INT 21h
+        CMP AL, 0Dh; compare with ENTER
+        JZ len     ; equal => end the string
+        INC CX
+        JMP char
+    len: 
+        ; print the length of the string
+        MOV AH, 09h
+        LEA DX, msg2
+        INT 21h
 
+        MOV AX, CX; move the string length into AX
+        MOV CX, 0; clear counter CX
+        MOV DX, 0; clear DX
+        MOV BX, 0Ah
+        ; perform hex to BCD conversion
+        divide: 
+            DIV BX
+            PUSH DX
+            MOV DX, 0
+            INC CX
+            OR AX, AX
+            JNZ divide
+        
+        print:
+            POP DX
+            ADD DL, 30h
+            MOV AH, 02h
+            INT 21h
+            LOOP print
 
-    ; print the string
-    mov ah, 09h
-    lea dx, msg2
-    int 21h
-
-    mov ah, 09h
-    lea dx, instr1+2
-    int 21h
-
-
-    ; print the length of the string
-    mov ah, 09h
-    lea dx, msg3
-    int 21h
-
-    add si, 2
-    mov ax, 00
-
-    l2:
-        cmp byte ptr[si], "$"
-        je l1; encountered end of string, therefore stop
-        inc si
-        add al, 1
-        jmp l2
-
-    l1:
-        sub al, 1
-        aaa
-        mov bx, ax
-        add bx, 3030h
-
-        mov ah, 02h
-        mov dl, bh
-        int 21h; display MSD
-        mov ah, 02h
-        mov dl, bl
-        int 21h; display LSD
-
-        mov ah, 4ch
-        int 21h
+        MOV AH, 4Ch
+        INT 21h
 
 code ends
 end start

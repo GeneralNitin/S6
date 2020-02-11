@@ -15,7 +15,6 @@ readnum macro msg
     mov ah, 09h
     int 21h
     mov bx, 0
-
     num:
         mov ah, 01h
         int 21h
