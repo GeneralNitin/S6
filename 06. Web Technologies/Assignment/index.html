@@ -1,39 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
 </head>
+
 <body>
-    <form action="">
-        <div class='container'>
-            <h1>Form</h1>
-            <div>
-                <label for="fName">First name: </label>
-                <input type="text" name="fName" id="fName" placeholder="First Name" required><br>
-            </div>
-            <div>
-                <label for="lName">Last name: </label>
-                <input type="text" name="lName" id="lName" placeholder="Last Name" required><br>
-            </div>
-            <div>
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="Email" required><br>
-            </div>
-            <div>
-                <label for="password">Password: </label>
-                <input type="password" name="password" id="password" placeholder="Password" required><br>
-            </div>
-            <div>
-                <label for="confirmPassword">Confirm Password:&nbsp;&nbsp;</label>
-                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required><br>
-            </div>
-            <input type="submit" value="Submit" id='submit' class="btn">
-        </div>
-    </form>
+    <table id='table1'>
+        <tr>
+            <td>First Name:</td>
+            <td><input type='text' id='first' onkeyup='validate();' /></td>
+            <td>
+                <div id='errFirst'></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td><input type='text' id='last' onkeyup='validate();' /></td>
+            <td>
+                <div id='errLast'></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type='text' id='email' onkeyup='validate();' /></td>
+            <td>
+                <div id='errEmail'></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type='password' id='password' onkeyup='validate();' /></td>
+            <td>
+                <div id='errPassword'></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Confirm Password:</td>
+            <td><input type='password' id='confirm' onkeyup='validate();' /></td>
+            <td>
+                <div id='errConfirm'></div>
+            </td>
+        </tr>
+        <tr id='td-submit'>
+            <td><input type='button' id='submit' value='Submit' onclick='validate();finalValidate();' /></td>
+            <td>
+                <div id='errFinal'></div>
+            </td>
+        </tr>
+    </table>
 
     <script src="script.js"></script>
 </body>
+
 </html>
