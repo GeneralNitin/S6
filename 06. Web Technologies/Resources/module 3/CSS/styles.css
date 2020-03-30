@@ -1,0 +1,9 @@
+p.major{font-size: 14pt;
+        font-style:italic;
+        font-family: 'Times New Roman';
+       }
+p.minor {font:10pt bold 'Courier New';}
+h2 {font-family: 'Times New Roman';
+    font-size:24pt; font-weight:bold}
+h3 {font-family: 'Courier New'; 
+    font-size: 18pt}

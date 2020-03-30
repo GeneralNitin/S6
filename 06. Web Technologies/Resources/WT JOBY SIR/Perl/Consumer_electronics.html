@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Consumer Electronics Purchasing Survey</title>
+</head>
+<body>
+<h2>Welcome to the store</h2>
+<form action = "./cgi-bin/conelec1.cgi" method = "post">
+<h2>Welcome to the Consumer Electronics Purchasing Survey<h2>
+<p/>
+<h4>Your Age Category: </h4>
+<p>
+<label>
+<input type = "radio" name = "age" value = "0"
+       checked = "checked" /> 10-25 <br />
+</label>
+<label>
+<input type = "radio" name = "age" value = "1" /> 26-40 <br />
+</label>
+<label>
+<input type = "radio" name = "age" value = "2" /> 41-60 <br />
+</label>
+<label>
+<input type = "radio" name = "age" value = "3" /> Over 60 <br />
+</label>
+</p>
+<h4>Your Gender: </h4>
+<p>
+<label>
+<input type = "radio" name = "gender" value = "0"
+       checked = "checked" /> Female <br />
+</label>
+<label>
+<input type = "radio" name = "gender" value = "4" /> Male <br />
+</label>
+</p>
+<h4>Your Next Consumer Electronic Purchase will be: </h4>
+<p>
+<label>
+<input type = "radio" name = "vote" value = "0"/> Conventional TV <br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "1"/> 
+HDTV <br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "2"/> 
+Digital Receiver <br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "3"/> 
+CD Player <br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "4"/> 
+Mobile Phone<br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "5"/> 
+DVD Player <br />
+</label>
+<label>
+<input type = "radio" name = "vote" value = "6"
+checked = "checked" /> Others <br />
+</label>
+
+<input type = "submit" value = "Submit Order" />
+<input type = "reset" value = "Clear Order Form" /> </p>
+</form>
+<hr/>
+<p>
+To see the results of the survey so far, click
+<a href = "./cgi-bin/conelec2.cgi">here </a>
+</p>
+</body>
+</html>

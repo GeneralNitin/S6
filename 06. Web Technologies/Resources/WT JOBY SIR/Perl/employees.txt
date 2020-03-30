@@ -1,0 +1,7 @@
+Thomas Chako:43:cse:50000
+Sajan David:57:ece:62000
+Manesh Thivary:24:mce:30000
+Joel George:22:cse:54000
+Sebin Kuriakose:24:cse:52000
+Linu Thomson:25:ece:45000 
+Tony Watson:27:cse:70000

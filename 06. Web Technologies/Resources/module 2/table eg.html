@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>Computer Science and Engineering Department - Tables</title>
+</head>
+<body>
+<h2 align= "center">Table Example Page</h2>
+
+<table border= "1" align = "center" width = "40%">
+   <caption>Here is a small sample table.</caption>
+    <tr>
+      <th>This is the Head.</th>
+   </tr>   
+   <tr>
+      <td align = "center">This is the Body.</td>
+   </tr>  
+</table>
+<br/><br/>
+
+<table border = "1" align = "center">
+
+   <caption>Here is a more complex sample table.</caption>
+
+   <!-- <colgroup> and <col> are used to format entire    -->
+   <!-- columns at once. span determines how many columns -->
+   <!-- the col tag effects.                              -->
+   <colgroup>
+      <col align = "right"/>
+      <col span = "4" align = "center"/>
+   </colgroup>
+
+   <thead>
+
+   <!-- rowspans and colspans combine the indicated number -->
+   <!-- of cells vertically or horizontally                -->
+   <tr bgcolor = "#8888FF">
+      <th rowspan = "2">
+         <img src = "zukoi.jpg" width = "200" height = "170"
+            alt = "The Sukhoi flying at one meter height"/> 
+      </th>
+      <th colspan = "4" valign = "top">
+         <h1>Sukhoi comparison</h1><br/>
+         <p>Maiden flight  20/5/1977</p>
+       </th>
+   </tr>
+
+   <tr bgcolor = "khaki" valign = "bottom">
+      <th>Cost in $</th>
+      <th>Country Of Manufacture</th>
+      <th>Category</th>
+      <th>Fighting Method</th>
+   </tr>
+
+   </thead>
+
+   <tbody>
+
+   <tr>
+      <th>Su-30MKI</th>
+      <td>35 million</td>
+      <td>Russia</td>
+      <td rowspan = "2">Fighter</td>
+      <td rowspan = "2">Dogfight</td>
+   </tr>
+
+   <tr>
+      <th>Falcon-16</th>
+      <td>18.8 million</td>
+      <td>USA</td>
+   </tr>
+
+</tbody>
+</table>
+
+</body>
+</html>
