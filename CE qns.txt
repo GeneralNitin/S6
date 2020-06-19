@@ -1,0 +1,68 @@
+[3:04 PM, 6/5/2020] Sneha Saj:
+What is a prime attribute
+What is a record
+What is thread
+Name 4 os
+Diff between graph and tree
+[3:04 PM, 6/5/2020] Sneha Saj: What is tuple
+[3:04 PM, 6/5/2020] Sneha Saj: What is field
+[3:04 PM, 6/5/2020] Sneha Saj: Super key
+[3:04 PM, 6/5/2020] Sneha Saj: Candidate key
+[3:04 PM, 6/5/2020] Sneha Saj: Whats Memory allocation
+[3:04 PM, 6/5/2020] Sneha Saj: Thread
+[3:04 PM, 6/5/2020] Sneha Saj: Functions of os
+[3:04 PM, 6/5/2020] Sneha Saj: What is memory management
+[3:04 PM, 6/5/2020] Sneha Saj: 1NF
+
+[2:59 PM, 6/5/2020] Sneha Saj: Threaded binary tree
+[2:59 PM, 6/5/2020] Sneha Saj: Garbage collector
+[3:00 PM, 6/5/2020] Sneha Saj: Linked list or array which is better y
+[3:00 PM, 6/5/2020] Sneha Saj: Diff between thread and process
+[3:01 PM, 6/5/2020] Sneha Saj: Types of os and explain distributed os
+[2:57 PM, 6/5/2020] Sneha Saj: DDL commands
+Critical section
+[2:57 PM, 6/5/2020] Sneha Saj: Deadlock criteria
+[2:57 PM, 6/5/2020] Sneha Saj: Circular wait
+[2:57 PM, 6/5/2020] Sneha Saj: Priority queue
+[2:57 PM, 6/5/2020] Sneha Saj: When we return a func what all happens
+Which ds for recursion why
+
+[2:51 PM, 6/5/2020] Silpa T S: Relational model
+[2:51 PM, 6/5/2020] Silpa T S: Priority queue
+[2:51 PM, 6/5/2020] Silpa T S: Garbage collector
+[2:51 PM, 6/5/2020] Silpa T S: Functional dependency
+[2:51 PM, 6/5/2020] Silpa T S: Heap
+
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is data structure
+[2:36 PM, 6/5/2020] Shwetha B Menon: Athu storage unit aano
+[2:36 PM, 6/5/2020] Shwetha B Menon: Deque
+[2:36 PM, 6/5/2020] Shwetha B Menon: Give some non linear data structures
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is heap
+[2:36 PM, 6/5/2020] Shwetha B Menon: Priority queue
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is void
+[2:36 PM, 6/5/2020] Shwetha B Menon: 3nf
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is prime attribute
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is super key
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is primary key
+[2:36 PM, 6/5/2020] Shwetha B Menon: I in acid property
+[2:36 PM, 6/5/2020] Shwetha B Menon: Is null a value
+[2:36 PM, 6/5/2020] Shwetha B Menon: Cartesian product and join difference
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is natural join
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is mulittasking
+[2:36 PM, 6/5/2020] Shwetha B Menon: What is difference between process and thread
+
+Diff btw ready state and wait state
+Trees and graghs
+Dfs,bfs
+Infix to postfix
+Tree traversal
+Diff between file and database?
+[2:56 PM, 6/4/2020] Shwetha B Menon: difference between data structure and dbms
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinne different type of data structures enthokeyya
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinne which data structure to use to avoid recursion problem
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinne diff between ready and waiting state
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinne difference between process and program
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinen diff between tree and graph
+[2:56 PM, 6/4/2020] Shwetha B Menon: tree graph aano graph tree aano okke
+[2:56 PM, 6/4/2020] Shwetha B Menon: pinne is file a data structure um choichu
+[2:57 PM, 6/4/2020] Shwetha B Menon: From reenu
